@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">About</a></li>
+                <li class="ctn"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="assets/menu.png" alt="Menu" class="menu-btn">
+    </div>
+    <header>
+        <div class="header-content">
+            <h2>Explore the colorful world</h2>
+            <div class="line"></div>
+            <h1>A wonderful gift</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Event</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="assets/img.png" alt="Camping img">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium temporibus nemo dolor. Enim, eum. Officiis?</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="assets/img2.png" alt="A man hiking">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium temporibus nemo dolor. Enim, eum. Officiis?</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero vitae reiciendis corporis voluptatum eveniet fugiat sed error rerum nemo eos fuga, obcaecati enim aliquid iure!</p>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sequi hic tempora magni atque distinctio!</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="assets/img3.png" alt="">
+                    <img src="assets/img4.png" alt="">
+                    <img src="assets/img5.png" alt="">
+                    <img src="assets/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad voluptatum alias debitis eligendi deserunt! Ipsam?</p>
+        <p>Copyright 2020 ® ADVENTURE</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
